@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-09T23:59:50Z",
+ "generated_at": "2026-07-10T08:27:35Z",
  "groups": [
   {
    "name": "Inflation",
@@ -179,10 +179,10 @@
      "note": "BoI nominal interest rate (dataflow BR)",
      "status": "ok",
      "value": 3.5,
-     "prev": 3.75,
-     "change": -0.25,
-     "pct": -6.67,
-     "asof": "2026-07-09",
+     "prev": 3.5,
+     "change": 0.0,
+     "pct": 0.0,
+     "asof": "2026-07-10",
      "history": [
       3.75,
       3.75,
@@ -222,11 +222,11 @@
       3.75,
       3.75,
       3.75,
-      3.75,
+      3.5,
       3.5
      ],
-     "chg_1d": -0.25,
-     "pct_1d": -6.67,
+     "chg_1d": 0.0,
+     "pct_1d": 0.0,
      "chg_mtd": -0.25,
      "pct_mtd": -6.67,
      "chg_ytd": -0.75,
@@ -950,13 +950,12 @@
      "source": "boi",
      "note": "BoI 1-year Makam (short T-bill) yield, gross \u2014 daily (SECDWH dataflow)",
      "status": "ok",
-     "value": 3.217,
-     "prev": 3.214,
-     "change": 0.003,
-     "pct": 0.08,
-     "asof": "2026-07-08",
+     "value": 3.215,
+     "prev": 3.217,
+     "change": -0.002,
+     "pct": -0.05,
+     "asof": "2026-07-09",
      "history": [
-      3.642,
       3.688,
       3.676,
       3.665,
@@ -995,14 +994,15 @@
       3.175,
       3.171,
       3.214,
-      3.217
+      3.217,
+      3.215
      ],
-     "chg_1d": 0.003,
-     "pct_1d": 0.08,
-     "chg_mtd": 0.026,
-     "pct_mtd": 0.82,
-     "chg_ytd": -0.6,
-     "pct_ytd": -15.73
+     "chg_1d": -0.002,
+     "pct_1d": -0.05,
+     "chg_mtd": 0.025,
+     "pct_mtd": 0.77,
+     "chg_ytd": -0.602,
+     "pct_ytd": -15.77
     }
    ]
   },
@@ -1170,14 +1170,12 @@
      "source": "yahoo",
      "note": "Yahoo index coverage for TASE is best-effort",
      "status": "ok",
-     "value": 4087.17,
-     "prev": 4085.97,
-     "change": 1.2,
-     "pct": 0.03,
-     "asof": "2026-07-08",
+     "value": 4036.97,
+     "prev": 4053.64,
+     "change": -16.67,
+     "pct": -0.41,
+     "asof": "2026-07-10",
      "history": [
-      4494.44,
-      4456.69,
       4476.92,
       4384.0,
       4313.17,
@@ -1215,12 +1213,14 @@
       4123.88,
       4167.09,
       4085.97,
-      4087.17
+      4087.17,
+      4053.64,
+      4036.97
      ],
-     "chg_1d": 1.2,
-     "pct_1d": 0.03,
-     "chg_mtd": 20.3,
-     "pct_mtd": 0.5,
+     "chg_1d": -16.67,
+     "pct_1d": -0.41,
+     "chg_mtd": -29.9,
+     "pct_mtd": -0.74,
      "chg_ytd": null,
      "pct_ytd": null
     },
@@ -1234,14 +1234,12 @@
      "source": "yahoo",
      "note": "Yahoo index coverage for TASE is best-effort",
      "status": "ok",
-     "value": 3938.11,
-     "prev": 3978.88,
-     "change": -40.77,
-     "pct": -1.02,
-     "asof": "2026-07-08",
+     "value": 3844.19,
+     "prev": 3859.22,
+     "change": -15.03,
+     "pct": -0.39,
+     "asof": "2026-07-10",
      "history": [
-      4252.42,
-      4127.59,
       4141.52,
       4074.54,
       4035.89,
@@ -1279,12 +1277,14 @@
       4013.26,
       4063.47,
       3978.88,
-      3938.11
+      3938.11,
+      3859.22,
+      3844.19
      ],
-     "chg_1d": -40.77,
-     "pct_1d": -1.02,
-     "chg_mtd": 119.15,
-     "pct_mtd": 3.12,
+     "chg_1d": -15.03,
+     "pct_1d": -0.39,
+     "chg_mtd": 25.23,
+     "pct_mtd": 0.66,
      "chg_ytd": null,
      "pct_ytd": null
     }
@@ -1367,14 +1367,12 @@
      "source": "yahoo",
      "note": "ETF proxy for the Bloomberg Global Aggregate",
      "status": "ok",
-     "value": 4.35,
-     "prev": 4.37,
-     "change": -0.02,
-     "pct": -0.5,
-     "asof": "2026-07-08",
+     "value": 4.37,
+     "prev": 4.36,
+     "change": 0.01,
+     "pct": 0.29,
+     "asof": "2026-07-10",
      "history": [
-      4.39,
-      4.4,
       4.36,
       4.36,
       4.35,
@@ -1412,12 +1410,14 @@
       4.38,
       4.38,
       4.37,
-      4.35
+      4.35,
+      4.36,
+      4.37
      ],
-     "chg_1d": -0.02,
-     "pct_1d": -0.5,
-     "chg_mtd": -0.05,
-     "pct_mtd": -1.09,
+     "chg_1d": 0.01,
+     "pct_1d": 0.29,
+     "chg_mtd": -0.02,
+     "pct_mtd": -0.48,
      "chg_ytd": null,
      "pct_ytd": null
     },
@@ -1569,7 +1569,7 @@
        "y": 5.06
       }
      ],
-     "asof": "2026-07-09",
+     "asof": "2026-07-10",
      "status": "ok",
      "note": "FRED constant-maturity Treasuries"
     },
@@ -1608,7 +1608,7 @@
        "y": 4.026
       }
      ],
-     "asof": "2026-07-09",
+     "asof": "2026-07-10",
      "status": "ok",
      "note": "BoI nominal zero-coupon estimation"
     }
