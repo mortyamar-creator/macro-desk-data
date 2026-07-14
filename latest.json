@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-14T07:13:06Z",
+ "generated_at": "2026-07-14T07:23:54Z",
  "groups": [
   {
    "name": "Inflation",
@@ -12,51 +12,52 @@
      "dp": 2,
      "cadence": "monthly",
      "source": "fred",
-     "note": "",
+     "note": "FRED CPIAUCNS (NOT seasonally adjusted) \u2014 the basis for BLS's official headline 12-month rate (was CPIAUCSL/SA, which is wrong for YoY)",
      "status": "ok",
-     "value": 4.27,
-     "prev": 3.95,
-     "change": 0.32,
-     "pct": 8.18,
+     "value": 4.25,
+     "prev": 3.81,
+     "change": 0.44,
+     "pct": 11.49,
      "asof": "2026-05-01",
      "history": [
       3.09,
-      3.16,
-      3.49,
+      3.15,
+      3.48,
       3.36,
-      3.24,
+      3.27,
       2.97,
-      2.94,
-      2.61,
-      2.43,
-      2.58,
-      2.72,
-      2.87,
-      2.99,
-      2.8,
-      2.38,
-      2.33,
-      2.38,
-      2.68,
-      2.74,
-      2.94,
-      3.02,
-      2.99,
+      2.89,
+      2.53,
+      2.44,
+      2.6,
+      2.75,
+      2.89,
       3.0,
-      2.83,
-      2.66,
-      3.32,
-      3.95,
-      4.27
+      2.82,
+      2.39,
+      2.31,
+      2.35,
+      2.67,
+      2.7,
+      2.92,
+      3.01,
+      2.74,
+      2.68,
+      2.39,
+      2.41,
+      3.26,
+      3.81,
+      4.25
      ],
-     "chg_1d": 0.32,
-     "pct_1d": 8.18,
-     "chg_mtd": 0.32,
-     "pct_mtd": 8.18,
-     "chg_ytd": 1.27,
-     "pct_ytd": 42.23,
+     "chg_1d": 0.44,
+     "pct_1d": 11.49,
+     "chg_mtd": 0.44,
+     "pct_mtd": 11.49,
+     "chg_ytd": 1.57,
+     "pct_ytd": 58.71,
      "hist_from": "2024-01-01",
-     "hist_to": "2026-05-01"
+     "hist_to": "2026-05-01",
+     "delta": "pp"
     },
     {
      "id": "IL_CPI_YOY",
@@ -97,7 +98,8 @@
      "chg_ytd": 0.17,
      "pct_ytd": 5.48,
      "hist_from": "2024-01-01",
-     "hist_to": "2025-03-01"
+     "hist_to": "2025-03-01",
+     "delta": "pp"
     }
    ]
   },
@@ -169,6 +171,7 @@
      "pct_ytd": -0.55,
      "hist_from": "2026-06-01",
      "hist_to": "2026-07-10",
+     "delta": "bp",
      "target_lo": 3.5,
      "target_hi": 3.75,
      "target_kind": "target range",
@@ -239,6 +242,7 @@
      "pct_ytd": -17.65,
      "hist_from": "2026-06-05",
      "hist_to": "2026-07-14",
+     "delta": "bp",
      "policy": true,
      "next_decision": "2026-09-01"
     }
@@ -311,7 +315,8 @@
      "chg_ytd": 0.0171,
      "pct_ytd": 5.45,
      "hist_from": "2026-05-15",
-     "hist_to": "2026-07-13"
+     "hist_to": "2026-07-13",
+     "delta": "pct"
     },
     {
      "id": "USD_ILS",
@@ -377,7 +382,8 @@
      "chg_ytd": -0.165,
      "pct_ytd": -5.17,
      "hist_from": "2026-05-15",
-     "hist_to": "2026-07-13"
+     "hist_to": "2026-07-13",
+     "delta": "pct"
     },
     {
      "id": "EUR_ILS",
@@ -443,7 +449,8 @@
      "chg_ytd": -0.2882,
      "pct_ytd": -7.69,
      "hist_from": "2026-05-15",
-     "hist_to": "2026-07-13"
+     "hist_to": "2026-07-13",
+     "delta": "pct"
     },
     {
      "id": "GBP_ILS",
@@ -509,7 +516,8 @@
      "chg_ytd": -0.2374,
      "pct_ytd": -5.53,
      "hist_from": "2026-05-15",
-     "hist_to": "2026-07-13"
+     "hist_to": "2026-07-13",
+     "delta": "pct"
     },
     {
      "id": "USD_EUR",
@@ -575,7 +583,8 @@
      "chg_ytd": -0.0298,
      "pct_ytd": -2.54,
      "hist_from": "2026-05-13",
-     "hist_to": "2026-07-10"
+     "hist_to": "2026-07-10",
+     "delta": "pct"
     },
     {
      "id": "ILS_BASKET",
@@ -641,7 +650,8 @@
      "chg_ytd": -4.1,
      "pct_ytd": -6.18,
      "hist_from": "2026-05-15",
-     "hist_to": "2026-07-13"
+     "hist_to": "2026-07-13",
+     "delta": "pct"
     }
    ]
   },
@@ -673,7 +683,8 @@
      "chg_ytd": null,
      "pct_ytd": null,
      "hist_from": "2026-06-30",
-     "hist_to": "2026-06-30"
+     "hist_to": "2026-06-30",
+     "delta": "bpraw"
     },
     {
      "id": "IL_CDS_10Y",
@@ -701,7 +712,8 @@
      "chg_ytd": null,
      "pct_ytd": null,
      "hist_from": "2026-06-25",
-     "hist_to": "2026-06-30"
+     "hist_to": "2026-06-30",
+     "delta": "bpraw"
     }
    ]
   },
@@ -772,7 +784,8 @@
      "chg_ytd": 0.18,
      "pct_ytd": 4.9,
      "hist_from": "2026-05-13",
-     "hist_to": "2026-07-10"
+     "hist_to": "2026-07-10",
+     "delta": "bp"
     },
     {
      "id": "US_2Y",
@@ -838,7 +851,8 @@
      "chg_ytd": 0.74,
      "pct_ytd": 21.33,
      "hist_from": "2026-05-13",
-     "hist_to": "2026-07-10"
+     "hist_to": "2026-07-10",
+     "delta": "bp"
     },
     {
      "id": "US_10Y",
@@ -904,7 +918,75 @@
      "chg_ytd": 0.38,
      "pct_ytd": 9.09,
      "hist_from": "2026-05-13",
-     "hist_to": "2026-07-10"
+     "hist_to": "2026-07-10",
+     "delta": "bp"
+    },
+    {
+     "id": "IL_3M",
+     "group": "Government yields",
+     "label": "Israel 3M (Makam)",
+     "unit": "%",
+     "dp": 3,
+     "cadence": "daily",
+     "source": "boi",
+     "note": "BoI 3-month Makam (T-bill) yield, gross \u2014 daily (SECDWH dataflow)",
+     "status": "ok",
+     "value": 3.241,
+     "prev": 3.252,
+     "change": -0.012,
+     "pct": -0.36,
+     "asof": "2026-07-13",
+     "history": [
+      3.824,
+      3.825,
+      3.78,
+      3.828,
+      3.781,
+      3.732,
+      3.732,
+      3.731,
+      3.731,
+      3.731,
+      3.618,
+      3.615,
+      3.611,
+      3.488,
+      3.545,
+      3.511,
+      3.537,
+      3.464,
+      3.506,
+      3.549,
+      3.501,
+      3.494,
+      3.439,
+      3.435,
+      3.431,
+      3.478,
+      3.47,
+      3.356,
+      3.188,
+      3.29,
+      3.395,
+      3.327,
+      3.432,
+      3.367,
+      3.423,
+      3.355,
+      3.278,
+      3.264,
+      3.252,
+      3.241
+     ],
+     "chg_1d": -0.012,
+     "pct_1d": -0.36,
+     "chg_mtd": -0.126,
+     "pct_mtd": -3.75,
+     "chg_ytd": -0.796,
+     "pct_ytd": -19.72,
+     "hist_from": "2026-05-12",
+     "hist_to": "2026-07-13",
+     "delta": "bp"
     },
     {
      "id": "IL_MAKAM",
@@ -970,7 +1052,8 @@
      "chg_ytd": -0.631,
      "pct_ytd": -16.52,
      "hist_from": "2026-05-14",
-     "hist_to": "2026-07-13"
+     "hist_to": "2026-07-13",
+     "delta": "bp"
     },
     {
      "id": "IL_2Y",
@@ -1036,7 +1119,8 @@
      "chg_ytd": -0.49,
      "pct_ytd": -12.91,
      "hist_from": "2023-03",
-     "hist_to": "2026-06"
+     "hist_to": "2026-06",
+     "delta": "bp"
     },
     {
      "id": "IL_10Y",
@@ -1102,7 +1186,8 @@
      "chg_ytd": -0.274,
      "pct_ytd": -6.79,
      "hist_from": "2023-03",
-     "hist_to": "2026-06"
+     "hist_to": "2026-06",
+     "delta": "bp"
     }
    ]
   },
@@ -1173,7 +1258,8 @@
      "chg_ytd": 669.84,
      "pct_ytd": 9.79,
      "hist_from": "2026-05-14",
-     "hist_to": "2026-07-13"
+     "hist_to": "2026-07-13",
+     "delta": "pct"
     },
     {
      "id": "US_NASDAQ",
@@ -1239,7 +1325,8 @@
      "chg_ytd": 2631.19,
      "pct_ytd": 11.32,
      "hist_from": "2026-05-14",
-     "hist_to": "2026-07-13"
+     "hist_to": "2026-07-13",
+     "delta": "pct"
     },
     {
      "id": "IL_TA125",
@@ -1251,13 +1338,12 @@
      "source": "yahoo",
      "note": "Yahoo index coverage for TASE is best-effort",
      "status": "ok",
-     "value": 4004.34,
-     "prev": 4007.14,
-     "change": -2.8,
-     "pct": -0.07,
-     "asof": "2026-07-13",
+     "value": 4012.32,
+     "prev": 4004.34,
+     "change": 7.98,
+     "pct": 0.2,
+     "asof": "2026-07-14",
      "history": [
-      4318.68,
       4254.33,
       4252.39,
       4325.86,
@@ -1296,16 +1382,18 @@
       4052.52,
       4007.25,
       4007.14,
-      4004.34
+      4004.34,
+      4012.32
      ],
-     "chg_1d": -2.8,
-     "pct_1d": -0.07,
-     "chg_mtd": -6.51,
-     "pct_mtd": -0.16,
-     "chg_ytd": 349.4,
-     "pct_ytd": 9.56,
-     "hist_from": "2026-05-15",
-     "hist_to": "2026-07-13"
+     "chg_1d": 7.98,
+     "pct_1d": 0.2,
+     "chg_mtd": 1.47,
+     "pct_mtd": 0.04,
+     "chg_ytd": 357.38,
+     "pct_ytd": 9.78,
+     "hist_from": "2026-05-18",
+     "hist_to": "2026-07-14",
+     "delta": "pct"
     },
     {
      "id": "IL_TA35",
@@ -1317,13 +1405,12 @@
      "source": "yahoo",
      "note": "Yahoo index coverage for TASE is best-effort",
      "status": "ok",
-     "value": 4058.08,
-     "prev": 4055.41,
-     "change": 2.67,
-     "pct": 0.07,
-     "asof": "2026-07-13",
+     "value": 4072.39,
+     "prev": 4058.08,
+     "change": 14.31,
+     "pct": 0.35,
+     "asof": "2026-07-14",
      "history": [
-      4384.0,
       4313.17,
       4309.57,
       4393.15,
@@ -1362,16 +1449,18 @@
       4087.17,
       4053.64,
       4055.41,
-      4058.08
+      4058.08,
+      4072.39
      ],
-     "chg_1d": 2.67,
-     "pct_1d": 0.07,
-     "chg_mtd": -8.79,
-     "pct_mtd": -0.22,
-     "chg_ytd": 439.21,
-     "pct_ytd": 12.14,
-     "hist_from": "2026-05-15",
-     "hist_to": "2026-07-13"
+     "chg_1d": 14.31,
+     "pct_1d": 0.35,
+     "chg_mtd": 5.52,
+     "pct_mtd": 0.14,
+     "chg_ytd": 453.52,
+     "pct_ytd": 12.53,
+     "hist_from": "2026-05-18",
+     "hist_to": "2026-07-14",
+     "delta": "pct"
     },
     {
      "id": "IL_TA90",
@@ -1383,13 +1472,12 @@
      "source": "yahoo",
      "note": "Yahoo index coverage for TASE is best-effort",
      "status": "ok",
-     "value": 3831.77,
-     "prev": 3849.81,
-     "change": -18.04,
-     "pct": -0.47,
-     "asof": "2026-07-13",
+     "value": 3830.72,
+     "prev": 3831.77,
+     "change": -1.05,
+     "pct": -0.03,
+     "asof": "2026-07-14",
      "history": [
-      4074.54,
       4035.89,
       4045.53,
       4087.84,
@@ -1428,16 +1516,18 @@
       3938.11,
       3859.22,
       3849.81,
-      3831.77
+      3831.77,
+      3830.72
      ],
-     "chg_1d": -18.04,
-     "pct_1d": -0.47,
-     "chg_mtd": 12.81,
-     "pct_mtd": 0.34,
-     "chg_ytd": 17.94,
-     "pct_ytd": 0.47,
-     "hist_from": "2026-05-15",
-     "hist_to": "2026-07-13"
+     "chg_1d": -1.05,
+     "pct_1d": -0.03,
+     "chg_mtd": 11.76,
+     "pct_mtd": 0.31,
+     "chg_ytd": 16.89,
+     "pct_ytd": 0.44,
+     "hist_from": "2026-05-18",
+     "hist_to": "2026-07-14",
+     "delta": "pct"
     }
    ]
   },
@@ -1508,7 +1598,8 @@
      "chg_ytd": -2.17,
      "pct_ytd": -2.17,
      "hist_from": "2026-05-14",
-     "hist_to": "2026-07-13"
+     "hist_to": "2026-07-13",
+     "delta": "pct"
     },
     {
      "id": "GLOBAL_AGG",
@@ -1521,12 +1612,11 @@
      "note": "ETF proxy for the Bloomberg Global Aggregate",
      "status": "ok",
      "value": 4.35,
-     "prev": 4.37,
-     "change": -0.02,
-     "pct": -0.46,
-     "asof": "2026-07-13",
+     "prev": 4.35,
+     "change": -0.0,
+     "pct": -0.1,
+     "asof": "2026-07-14",
      "history": [
-      4.36,
       4.35,
       4.38,
       4.36,
@@ -1565,16 +1655,18 @@
       4.35,
       4.36,
       4.37,
+      4.35,
       4.35
      ],
-     "chg_1d": -0.02,
-     "pct_1d": -0.46,
-     "chg_mtd": -0.04,
-     "pct_mtd": -0.94,
+     "chg_1d": -0.0,
+     "pct_1d": -0.1,
+     "chg_mtd": -0.05,
+     "pct_mtd": -1.05,
      "chg_ytd": -0.13,
-     "pct_ytd": -2.85,
-     "hist_from": "2026-05-18",
-     "hist_to": "2026-07-13"
+     "pct_ytd": -2.95,
+     "hist_from": "2026-05-19",
+     "hist_to": "2026-07-14",
+     "delta": "pct"
     },
     {
      "id": "TELBOND60",
@@ -1601,7 +1693,8 @@
      "chg_ytd": null,
      "pct_ytd": null,
      "hist_from": "2026-06-30",
-     "hist_to": "2026-06-30"
+     "hist_to": "2026-06-30",
+     "delta": "pct"
     },
     {
      "id": "TELBOND_SHK",
@@ -1628,7 +1721,8 @@
      "chg_ytd": null,
      "pct_ytd": null,
      "hist_from": "2026-06-30",
-     "hist_to": "2026-06-30"
+     "hist_to": "2026-06-30",
+     "delta": "pct"
     }
    ]
   },
@@ -1672,7 +1766,8 @@
      "chg_ytd": -0.1,
      "pct_ytd": -0.04,
      "hist_from": "2023-Q1",
-     "hist_to": "2026-Q1"
+     "hist_to": "2026-Q1",
+     "delta": "pct"
     }
    ]
   },
