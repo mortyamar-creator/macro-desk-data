@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-14T07:23:54Z",
+ "generated_at": "2026-07-14T12:12:26Z",
  "groups": [
   {
    "name": "Inflation",
@@ -922,73 +922,6 @@
      "delta": "bp"
     },
     {
-     "id": "IL_3M",
-     "group": "Government yields",
-     "label": "Israel 3M (Makam)",
-     "unit": "%",
-     "dp": 3,
-     "cadence": "daily",
-     "source": "boi",
-     "note": "BoI 3-month Makam (T-bill) yield, gross \u2014 daily (SECDWH dataflow)",
-     "status": "ok",
-     "value": 3.241,
-     "prev": 3.252,
-     "change": -0.012,
-     "pct": -0.36,
-     "asof": "2026-07-13",
-     "history": [
-      3.824,
-      3.825,
-      3.78,
-      3.828,
-      3.781,
-      3.732,
-      3.732,
-      3.731,
-      3.731,
-      3.731,
-      3.618,
-      3.615,
-      3.611,
-      3.488,
-      3.545,
-      3.511,
-      3.537,
-      3.464,
-      3.506,
-      3.549,
-      3.501,
-      3.494,
-      3.439,
-      3.435,
-      3.431,
-      3.478,
-      3.47,
-      3.356,
-      3.188,
-      3.29,
-      3.395,
-      3.327,
-      3.432,
-      3.367,
-      3.423,
-      3.355,
-      3.278,
-      3.264,
-      3.252,
-      3.241
-     ],
-     "chg_1d": -0.012,
-     "pct_1d": -0.36,
-     "chg_mtd": -0.126,
-     "pct_mtd": -3.75,
-     "chg_ytd": -0.796,
-     "pct_ytd": -19.72,
-     "hist_from": "2026-05-12",
-     "hist_to": "2026-07-13",
-     "delta": "bp"
-    },
-    {
      "id": "IL_MAKAM",
      "group": "Government yields",
      "label": "Israel Makam (1Y)",
@@ -1338,10 +1271,10 @@
      "source": "yahoo",
      "note": "Yahoo index coverage for TASE is best-effort",
      "status": "ok",
-     "value": 4012.32,
+     "value": 4023.97,
      "prev": 4004.34,
-     "change": 7.98,
-     "pct": 0.2,
+     "change": 19.63,
+     "pct": 0.49,
      "asof": "2026-07-14",
      "history": [
       4254.33,
@@ -1383,14 +1316,14 @@
       4007.25,
       4007.14,
       4004.34,
-      4012.32
+      4023.97
      ],
-     "chg_1d": 7.98,
-     "pct_1d": 0.2,
-     "chg_mtd": 1.47,
-     "pct_mtd": 0.04,
-     "chg_ytd": 357.38,
-     "pct_ytd": 9.78,
+     "chg_1d": 19.63,
+     "pct_1d": 0.49,
+     "chg_mtd": 13.12,
+     "pct_mtd": 0.33,
+     "chg_ytd": 369.03,
+     "pct_ytd": 10.1,
      "hist_from": "2026-05-18",
      "hist_to": "2026-07-14",
      "delta": "pct"
@@ -1405,10 +1338,10 @@
      "source": "yahoo",
      "note": "Yahoo index coverage for TASE is best-effort",
      "status": "ok",
-     "value": 4072.39,
+     "value": 4096.9,
      "prev": 4058.08,
-     "change": 14.31,
-     "pct": 0.35,
+     "change": 38.82,
+     "pct": 0.96,
      "asof": "2026-07-14",
      "history": [
       4313.17,
@@ -1450,14 +1383,14 @@
       4053.64,
       4055.41,
       4058.08,
-      4072.39
+      4096.9
      ],
-     "chg_1d": 14.31,
-     "pct_1d": 0.35,
-     "chg_mtd": 5.52,
-     "pct_mtd": 0.14,
-     "chg_ytd": 453.52,
-     "pct_ytd": 12.53,
+     "chg_1d": 38.82,
+     "pct_1d": 0.96,
+     "chg_mtd": 30.03,
+     "pct_mtd": 0.74,
+     "chg_ytd": 478.03,
+     "pct_ytd": 13.21,
      "hist_from": "2026-05-18",
      "hist_to": "2026-07-14",
      "delta": "pct"
@@ -1472,10 +1405,10 @@
      "source": "yahoo",
      "note": "Yahoo index coverage for TASE is best-effort",
      "status": "ok",
-     "value": 3830.72,
+     "value": 3799.84,
      "prev": 3831.77,
-     "change": -1.05,
-     "pct": -0.03,
+     "change": -31.93,
+     "pct": -0.83,
      "asof": "2026-07-14",
      "history": [
       4035.89,
@@ -1517,14 +1450,14 @@
       3859.22,
       3849.81,
       3831.77,
-      3830.72
+      3799.84
      ],
-     "chg_1d": -1.05,
-     "pct_1d": -0.03,
-     "chg_mtd": 11.76,
-     "pct_mtd": 0.31,
-     "chg_ytd": 16.89,
-     "pct_ytd": 0.44,
+     "chg_1d": -31.93,
+     "pct_1d": -0.83,
+     "chg_mtd": -19.12,
+     "pct_mtd": -0.5,
+     "chg_ytd": -13.99,
+     "pct_ytd": -0.37,
      "hist_from": "2026-05-18",
      "hist_to": "2026-07-14",
      "delta": "pct"
@@ -1614,7 +1547,7 @@
      "value": 4.35,
      "prev": 4.35,
      "change": -0.0,
-     "pct": -0.1,
+     "pct": -0.02,
      "asof": "2026-07-14",
      "history": [
       4.35,
@@ -1659,11 +1592,11 @@
       4.35
      ],
      "chg_1d": -0.0,
-     "pct_1d": -0.1,
-     "chg_mtd": -0.05,
-     "pct_mtd": -1.05,
+     "pct_1d": -0.02,
+     "chg_mtd": -0.04,
+     "pct_mtd": -0.97,
      "chg_ytd": -0.13,
-     "pct_ytd": -2.95,
+     "pct_ytd": -2.87,
      "hist_from": "2026-05-19",
      "hist_to": "2026-07-14",
      "delta": "pct"
@@ -1832,9 +1765,17 @@
     {
      "id": "IL_CURVE",
      "group": "Yield curve",
-     "label": "Israel gov curve (nominal, monthly avg)",
+     "label": "Israel gov curve (nominal)",
      "type": "curve",
      "points": [
+      {
+       "m": "1M",
+       "y": 3.206
+      },
+      {
+       "m": "3M",
+       "y": 3.241
+      },
       {
        "m": "1Y",
        "y": 3.274
@@ -1866,7 +1807,8 @@
      ],
      "asof": "2026-07-14",
      "status": "ok",
-     "note": "BoI nominal zero-coupon estimation"
+     "maxtenor": "15Y",
+     "note": "BoI nominal zero-coupon (1Y-15Y); 1M/3M = daily Makam T-bill"
     }
    ]
   }
