@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-13T23:46:19Z",
+ "generated_at": "2026-07-14T07:13:06Z",
  "groups": [
   {
    "name": "Inflation",
@@ -188,7 +188,7 @@
      "prev": 3.5,
      "change": 0.0,
      "pct": 0.0,
-     "asof": "2026-07-13",
+     "asof": "2026-07-14",
      "history": [
       3.75,
       3.75,
@@ -224,7 +224,7 @@
       3.75,
       3.75,
       3.75,
-      3.75,
+      3.5,
       3.5,
       3.5,
       3.5,
@@ -237,8 +237,8 @@
      "pct_mtd": -6.67,
      "chg_ytd": -0.75,
      "pct_ytd": -17.65,
-     "hist_from": "2026-06-04",
-     "hist_to": "2026-07-13",
+     "hist_from": "2026-06-05",
+     "hist_to": "2026-07-14",
      "policy": true,
      "next_decision": "2026-09-01"
     }
@@ -916,13 +916,12 @@
      "source": "boi",
      "note": "BoI 1-year Makam (short T-bill) yield, gross \u2014 daily (SECDWH dataflow)",
      "status": "ok",
-     "value": 3.212,
-     "prev": 3.215,
-     "change": -0.003,
-     "pct": -0.11,
-     "asof": "2026-07-10",
+     "value": 3.187,
+     "prev": 3.212,
+     "change": -0.025,
+     "pct": -0.78,
+     "asof": "2026-07-13",
      "history": [
-      3.676,
       3.665,
       3.664,
       3.651,
@@ -961,16 +960,17 @@
       3.214,
       3.217,
       3.215,
-      3.212
+      3.212,
+      3.187
      ],
-     "chg_1d": -0.003,
-     "pct_1d": -0.11,
-     "chg_mtd": 0.021,
-     "pct_mtd": 0.66,
-     "chg_ytd": -0.606,
-     "pct_ytd": -15.86,
-     "hist_from": "2026-05-13",
-     "hist_to": "2026-07-10"
+     "chg_1d": -0.025,
+     "pct_1d": -0.78,
+     "chg_mtd": -0.004,
+     "pct_mtd": -0.13,
+     "chg_ytd": -0.631,
+     "pct_ytd": -16.52,
+     "hist_from": "2026-05-14",
+     "hist_to": "2026-07-13"
     },
     {
      "id": "IL_2Y",
@@ -1251,13 +1251,12 @@
      "source": "yahoo",
      "note": "Yahoo index coverage for TASE is best-effort",
      "status": "ok",
-     "value": 4007.14,
-     "prev": 4007.25,
-     "change": -0.11,
-     "pct": -0.0,
-     "asof": "2026-07-10",
+     "value": 4004.34,
+     "prev": 4007.14,
+     "change": -2.8,
+     "pct": -0.07,
+     "asof": "2026-07-13",
      "history": [
-      4404.52,
       4318.68,
       4254.33,
       4252.39,
@@ -1296,16 +1295,17 @@
       4062.69,
       4052.52,
       4007.25,
-      4007.14
+      4007.14,
+      4004.34
      ],
-     "chg_1d": -0.11,
-     "pct_1d": -0.0,
-     "chg_mtd": -3.71,
-     "pct_mtd": -0.09,
-     "chg_ytd": 352.2,
-     "pct_ytd": 9.64,
-     "hist_from": "2026-05-14",
-     "hist_to": "2026-07-10"
+     "chg_1d": -2.8,
+     "pct_1d": -0.07,
+     "chg_mtd": -6.51,
+     "pct_mtd": -0.16,
+     "chg_ytd": 349.4,
+     "pct_ytd": 9.56,
+     "hist_from": "2026-05-15",
+     "hist_to": "2026-07-13"
     },
     {
      "id": "IL_TA35",
@@ -1317,13 +1317,12 @@
      "source": "yahoo",
      "note": "Yahoo index coverage for TASE is best-effort",
      "status": "ok",
-     "value": 4055.41,
-     "prev": 4053.64,
-     "change": 1.77,
-     "pct": 0.04,
-     "asof": "2026-07-10",
+     "value": 4058.08,
+     "prev": 4055.41,
+     "change": 2.67,
+     "pct": 0.07,
+     "asof": "2026-07-13",
      "history": [
-      4476.92,
       4384.0,
       4313.17,
       4309.57,
@@ -1362,16 +1361,17 @@
       4085.97,
       4087.17,
       4053.64,
-      4055.41
+      4055.41,
+      4058.08
      ],
-     "chg_1d": 1.77,
-     "pct_1d": 0.04,
-     "chg_mtd": -11.46,
-     "pct_mtd": -0.28,
-     "chg_ytd": 436.54,
-     "pct_ytd": 12.06,
-     "hist_from": "2026-05-14",
-     "hist_to": "2026-07-10"
+     "chg_1d": 2.67,
+     "pct_1d": 0.07,
+     "chg_mtd": -8.79,
+     "pct_mtd": -0.22,
+     "chg_ytd": 439.21,
+     "pct_ytd": 12.14,
+     "hist_from": "2026-05-15",
+     "hist_to": "2026-07-13"
     },
     {
      "id": "IL_TA90",
@@ -1383,13 +1383,12 @@
      "source": "yahoo",
      "note": "Yahoo index coverage for TASE is best-effort",
      "status": "ok",
-     "value": 3849.81,
-     "prev": 3859.22,
-     "change": -9.41,
-     "pct": -0.24,
-     "asof": "2026-07-10",
+     "value": 3831.77,
+     "prev": 3849.81,
+     "change": -18.04,
+     "pct": -0.47,
+     "asof": "2026-07-13",
      "history": [
-      4141.52,
       4074.54,
       4035.89,
       4045.53,
@@ -1428,16 +1427,17 @@
       3978.88,
       3938.11,
       3859.22,
-      3849.81
+      3849.81,
+      3831.77
      ],
-     "chg_1d": -9.41,
-     "pct_1d": -0.24,
-     "chg_mtd": 30.85,
-     "pct_mtd": 0.81,
-     "chg_ytd": 35.98,
-     "pct_ytd": 0.94,
-     "hist_from": "2026-05-14",
-     "hist_to": "2026-07-10"
+     "chg_1d": -18.04,
+     "pct_1d": -0.47,
+     "chg_mtd": 12.81,
+     "pct_mtd": 0.34,
+     "chg_ytd": 17.94,
+     "pct_ytd": 0.47,
+     "hist_from": "2026-05-15",
+     "hist_to": "2026-07-13"
     }
    ]
   },
@@ -1520,14 +1520,13 @@
      "source": "yahoo",
      "note": "ETF proxy for the Bloomberg Global Aggregate",
      "status": "ok",
-     "value": 4.37,
-     "prev": 4.36,
-     "change": 0.01,
-     "pct": 0.28,
-     "asof": "2026-07-10",
+     "value": 4.35,
+     "prev": 4.37,
+     "change": -0.02,
+     "pct": -0.46,
+     "asof": "2026-07-13",
      "history": [
       4.36,
-      4.36,
       4.35,
       4.38,
       4.36,
@@ -1565,16 +1564,17 @@
       4.37,
       4.35,
       4.36,
-      4.37
+      4.37,
+      4.35
      ],
-     "chg_1d": 0.01,
-     "pct_1d": 0.28,
-     "chg_mtd": -0.02,
-     "pct_mtd": -0.49,
-     "chg_ytd": -0.11,
-     "pct_ytd": -2.4,
-     "hist_from": "2026-05-15",
-     "hist_to": "2026-07-10"
+     "chg_1d": -0.02,
+     "pct_1d": -0.46,
+     "chg_mtd": -0.04,
+     "pct_mtd": -0.94,
+     "chg_ytd": -0.13,
+     "pct_ytd": -2.85,
+     "hist_from": "2026-05-18",
+     "hist_to": "2026-07-13"
     },
     {
      "id": "TELBOND60",
@@ -1730,7 +1730,7 @@
        "y": 5.06
       }
      ],
-     "asof": "2026-07-13",
+     "asof": "2026-07-14",
      "status": "ok",
      "note": "FRED constant-maturity Treasuries"
     },
@@ -1769,7 +1769,7 @@
        "y": 4.026
       }
      ],
-     "asof": "2026-07-13",
+     "asof": "2026-07-14",
      "status": "ok",
      "note": "BoI nominal zero-coupon estimation"
     }
