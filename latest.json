@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-21T23:56:01Z",
+ "generated_at": "2026-07-22T07:38:09Z",
  "groups": [
   {
    "name": "Inflation",
@@ -192,7 +192,7 @@
      "prev": 3.5,
      "change": 0.0,
      "pct": 0.0,
-     "asof": "2026-07-21",
+     "asof": "2026-07-22",
      "history": [
       3.75,
       3.75,
@@ -220,7 +220,7 @@
       3.75,
       3.75,
       3.75,
-      3.75,
+      3.5,
       3.5,
       3.5,
       3.5,
@@ -241,8 +241,8 @@
      "pct_mtd": -6.67,
      "chg_ytd": -0.75,
      "pct_ytd": -17.65,
-     "hist_from": "2026-06-12",
-     "hist_to": "2026-07-21",
+     "hist_from": "2026-06-13",
+     "hist_to": "2026-07-22",
      "delta": "bp",
      "policy": true,
      "next_decision": "2026-09-01"
@@ -932,13 +932,12 @@
      "source": "boi",
      "note": "BoI 1-year Makam (short T-bill) yield, gross \u2014 daily (SECDWH dataflow)",
      "status": "ok",
-     "value": 3.262,
-     "prev": 3.233,
-     "change": 0.03,
-     "pct": 0.92,
-     "asof": "2026-07-20",
+     "value": 3.305,
+     "prev": 3.262,
+     "change": 0.043,
+     "pct": 1.31,
+     "asof": "2026-07-21",
      "history": [
-      3.488,
       3.51,
       3.498,
       3.497,
@@ -977,16 +976,17 @@
       3.227,
       3.247,
       3.233,
-      3.262
+      3.262,
+      3.305
      ],
-     "chg_1d": 0.03,
-     "pct_1d": 0.92,
-     "chg_mtd": 0.072,
-     "pct_mtd": 2.24,
-     "chg_ytd": -0.555,
-     "pct_ytd": -14.54,
-     "hist_from": "2026-05-25",
-     "hist_to": "2026-07-20",
+     "chg_1d": 0.043,
+     "pct_1d": 1.31,
+     "chg_mtd": 0.114,
+     "pct_mtd": 3.58,
+     "chg_ytd": -0.512,
+     "pct_ytd": -13.42,
+     "hist_from": "2026-05-26",
+     "hist_to": "2026-07-21",
      "delta": "bp"
     },
     {
@@ -1272,14 +1272,12 @@
      "source": "yahoo",
      "note": "Yahoo index coverage for TASE is best-effort",
      "status": "ok",
-     "value": 4081.45,
-     "prev": 4081.26,
-     "change": 0.19,
-     "pct": 0.0,
-     "asof": "2026-07-20",
+     "value": 4127.15,
+     "prev": 4129.39,
+     "change": -2.24,
+     "pct": -0.05,
+     "asof": "2026-07-22",
      "history": [
-      4419.71,
-      4432.94,
       4399.06,
       4430.46,
       4239.39,
@@ -1317,16 +1315,18 @@
       4127.49,
       4096.58,
       4081.26,
-      4081.45
+      4081.45,
+      4129.39,
+      4127.15
      ],
-     "chg_1d": 0.19,
-     "pct_1d": 0.0,
-     "chg_mtd": 70.6,
-     "pct_mtd": 1.76,
-     "chg_ytd": 426.51,
-     "pct_ytd": 11.67,
-     "hist_from": "2026-05-26",
-     "hist_to": "2026-07-20",
+     "chg_1d": -2.24,
+     "pct_1d": -0.05,
+     "chg_mtd": 116.3,
+     "pct_mtd": 2.9,
+     "chg_ytd": 472.21,
+     "pct_ytd": 12.92,
+     "hist_from": "2026-05-28",
+     "hist_to": "2026-07-22",
      "delta": "pct"
     },
     {
@@ -1339,14 +1339,12 @@
      "source": "yahoo",
      "note": "Yahoo index coverage for TASE is best-effort",
      "status": "ok",
-     "value": 4135.8,
-     "prev": 4140.43,
-     "change": -4.63,
-     "pct": -0.11,
-     "asof": "2026-07-20",
+     "value": 4185.77,
+     "prev": 4193.36,
+     "change": -7.59,
+     "pct": -0.18,
+     "asof": "2026-07-22",
      "history": [
-      4483.96,
-      4476.71,
       4431.08,
       4455.67,
       4268.02,
@@ -1384,16 +1382,18 @@
       4196.09,
       4156.43,
       4140.43,
-      4135.8
+      4135.8,
+      4193.36,
+      4185.77
      ],
-     "chg_1d": -4.63,
-     "pct_1d": -0.11,
-     "chg_mtd": 68.93,
-     "pct_mtd": 1.69,
-     "chg_ytd": 516.93,
-     "pct_ytd": 14.28,
-     "hist_from": "2026-05-26",
-     "hist_to": "2026-07-20",
+     "chg_1d": -7.59,
+     "pct_1d": -0.18,
+     "chg_mtd": 118.9,
+     "pct_mtd": 2.92,
+     "chg_ytd": 566.9,
+     "pct_ytd": 15.67,
+     "hist_from": "2026-05-28",
+     "hist_to": "2026-07-22",
      "delta": "pct"
     },
     {
@@ -1406,14 +1406,12 @@
      "source": "yahoo",
      "note": "Yahoo index coverage for TASE is best-effort",
      "status": "ok",
-     "value": 3898.96,
-     "prev": 3885.32,
-     "change": 13.64,
-     "pct": 0.35,
-     "asof": "2026-07-20",
+     "value": 3932.4,
+     "prev": 3921.84,
+     "change": 10.56,
+     "pct": 0.27,
+     "asof": "2026-07-22",
      "history": [
-      4176.41,
-      4242.26,
       4248.23,
       4298.71,
       4100.36,
@@ -1451,16 +1449,18 @@
       3905.7,
       3898.75,
       3885.32,
-      3898.96
+      3898.96,
+      3921.84,
+      3932.4
      ],
-     "chg_1d": 13.64,
-     "pct_1d": 0.35,
-     "chg_mtd": 80.0,
-     "pct_mtd": 2.09,
-     "chg_ytd": 85.13,
-     "pct_ytd": 2.23,
-     "hist_from": "2026-05-26",
-     "hist_to": "2026-07-20",
+     "chg_1d": 10.56,
+     "pct_1d": 0.27,
+     "chg_mtd": 113.44,
+     "pct_mtd": 2.97,
+     "chg_ytd": 118.57,
+     "pct_ytd": 3.11,
+     "hist_from": "2026-05-28",
+     "hist_to": "2026-07-22",
      "delta": "pct"
     }
    ]
@@ -1546,13 +1546,11 @@
      "note": "ETF proxy for the Bloomberg Global Aggregate",
      "status": "ok",
      "value": 4.28,
-     "prev": 4.3,
-     "change": -0.01,
-     "pct": -0.3,
-     "asof": "2026-07-20",
+     "prev": 4.28,
+     "change": -0.0,
+     "pct": -0.06,
+     "asof": "2026-07-22",
      "history": [
-      4.39,
-      4.4,
       4.41,
       4.42,
       4.4,
@@ -1590,16 +1588,18 @@
       4.37,
       4.29,
       4.3,
+      4.28,
+      4.28,
       4.28
      ],
-     "chg_1d": -0.01,
-     "pct_1d": -0.3,
-     "chg_mtd": -0.11,
-     "pct_mtd": -2.55,
-     "chg_ytd": -0.2,
-     "pct_ytd": -4.42,
-     "hist_from": "2026-05-26",
-     "hist_to": "2026-07-20",
+     "chg_1d": -0.0,
+     "pct_1d": -0.06,
+     "chg_mtd": -0.12,
+     "pct_mtd": -2.71,
+     "chg_ytd": -0.21,
+     "pct_ytd": -4.58,
+     "hist_from": "2026-05-28",
+     "hist_to": "2026-07-22",
      "delta": "pct"
     },
     {
@@ -1759,7 +1759,7 @@
        "y": 5.11
       }
      ],
-     "asof": "2026-07-21",
+     "asof": "2026-07-22",
      "status": "ok",
      "note": "FRED constant-maturity Treasuries"
     },
@@ -1768,9 +1768,46 @@
      "group": "Yield curve",
      "label": "Israel gov curve (nominal)",
      "type": "curve",
-     "points": [],
-     "asof": "2026-07-21",
-     "status": "nodata",
+     "points": [
+      {
+       "m": "1M",
+       "y": 3.45
+      },
+      {
+       "m": "3M",
+       "y": 3.287
+      },
+      {
+       "m": "1Y",
+       "y": 3.274
+      },
+      {
+       "m": "2Y",
+       "y": 3.305
+      },
+      {
+       "m": "3Y",
+       "y": 3.341
+      },
+      {
+       "m": "5Y",
+       "y": 3.426
+      },
+      {
+       "m": "7Y",
+       "y": 3.545
+      },
+      {
+       "m": "10Y",
+       "y": 3.766
+      },
+      {
+       "m": "15Y",
+       "y": 4.026
+      }
+     ],
+     "asof": "2026-07-22",
+     "status": "ok",
      "maxtenor": "15Y",
      "note": "BoI nominal zero-coupon (1Y-15Y); 1M/3M = daily Makam T-bill"
     }
